@@ -26,8 +26,10 @@ public class ex004
     if (A==B) 
     Console.WriteLine("Числа равны");
     else
+  {
     Console.WriteLine((GetWays(A,B)+1));
     // вывод комбинации
     PrintPrevr(A, B);
+  }
   }
 }
